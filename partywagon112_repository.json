@@ -1,0 +1,22 @@
+{
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "maintainer": {
+        "contact": {
+            "web": 
+        },
+        "name": "PartyWagon112 team"
+    },
+    "name": "KiCad official repository",
+    "packages": {
+        "sha256": "40e454b1d5346aebb2b299fbff05f1e4bd9036371ce9fd7cbf17648619c7d378",
+        "update_time_utc": "2024-11-17 11:01:42",
+        "update_timestamp": 1731841302,
+        "url": "https://gitlab.com/kicad/addons/repository/-/raw/main/packages.json"
+    },
+    "resources": {
+        "sha256": "3028e1528838f51f566282b4886e42067948945f7f99d7cbea92bc3e7c66207b",
+        "update_time_utc": "2024-11-17 11:01:42",
+        "update_timestamp": 1731841302,
+        "url": "https://gitlab.com/kicad/addons/repository/-/jobs/artifacts/main/raw/artifacts/resources.zip?job=update"
+    }
+}
