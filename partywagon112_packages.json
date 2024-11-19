@@ -2,25 +2,25 @@
     "packages": [
         {
             "$schema": "https://go.kicad.org/pcm/schemas/v1",
+            "name": "PartyWagon112 Kicad Library",
+            "description": "A library for my projects",
+            "description_full": "A library for my projects",
+            "identifier": "com.github.partywagon112.partywagon112-kicad-library",
+            "type": "library",
             "author": {
+                "name": "Patrick Curtain (partywagon112)",
                 "contact": {
-                    "email": "perigoso@riseup.net"
-                },
-                "name": "Rafael Silva (perigoso)"
+                    "web": "https://github.com/partywagon112"
+                }
             },
-            "description": "Keyboard switch footprint library",
-            "description_full": "This package contains footprints for popular keyboard switches, these are generated automatically.\nSupported footprints:\n\n- Cherry MX or equivalent, Plate and PCB mount.\n- Alps/Matias or equivalent.\n- Hybrid footprints for Cherry MX and Alps/Matias (accepts both).\n- Kailh Choc low profile switches (version 1).\n- Kailh Hotswap sockets for Cherry MX equivalent switches.\n",
-            "identifier": "com.github.perigoso.keyswitch-kicad-library",
-            "license": "CC-BY-SA-4.0",
-            "name": "Keyswitch Kicad Library",
+            "license": "Apache",
             "resources": {
-                "Github": "https://github.com/perigoso/keyswitch-kicad-library"
+                "Github": "https://github.com/partywagon112/PartyWagon112-KiCad-Library"
             },
             "tags": [
                 "footprint",
                 "library"
             ],
-            "type": "library",
             "versions": [
                 {
                     "download_sha256": "b38d56323acb91ad660567340ca938c5b4a83a27eea52308ef14aa7857b0071b",
