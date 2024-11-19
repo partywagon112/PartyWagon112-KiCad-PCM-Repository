@@ -1,23 +1,103 @@
+import re
 import os
-import pathlib
+import json
+
+import shutil
+import hashlib
+from zipfile import ZipFile
 import datetime
-import time
-import platform
-import subprocess
 
-fname = './packages.json'
-pstat = os.stat(fname)
+from pathlib import Path
 
-res = subprocess.run(['sha256sum', fname], stdout=subprocess.PIPE, text=True)
-sha256 = res.stdout.split(' ')[0]
+from git import Repo
 
-tsf = pstat.st_mtime
-ts = int(tsf)
-dt = datetime.datetime.fromtimestamp(ts)
+import logging
 
-print('    "packages": {')
-print('        "sha256": "%s",' % sha256)
-print('        "update_time_utc": "%s",' % dt)
-print('        "update_timestamp": %s,' % ts)
-print('        "url": "https://raw.githubusercontent.com/g200kg/kicad-pcm-repository/main/packages.json"')
-print('    }')
+logging.basicConfig(level=logging.INFO)
+
+# repo = Repo(self.rorepo.working_tree_dir)
+
+def iterate_minor_version(last_version: str) -> str:
+    dotted_version = last_version.split(".")
+    dotted_version[-1] = str(int(dotted_version[-1]) + 1)
+    next_version = ".".join(dotted_version)
+    logging.info(f"Upgrading {last_version}->{next_version}")
+    return next_version
+
+def get_metadata(path):
+    metadata = {}
+    metadata_path = os.path.join(path, "metadata.json")
+    if not os.path.exists(metadata_path):
+        raise FileNotFoundError(f"No metadata.json found at {path}")
+    
+    with open(metadata_path, 'r') as file:
+        return json.load(file)
+
+def save_metadata(path, metadata):
+    metadata_path = os.path.join(path, "metadata.json")
+
+    with open(metadata_path, 'w') as file:
+        json.dump(metadata, file, indent=4)
+
+def zip_directory(path) -> dict:
+    # with ZipFile(os.path.join(".", f"{os.path.basename(path)}.zip"), 'w') as zip_object:
+    shutil.make_archive(os.path.basename(path), 'zip', path)
+
+def sha256sum(filename) -> str:
+    h  = hashlib.sha256()
+    b  = bytearray(128*1024)
+    mv = memoryview(b)
+    with open(filename, 'rb', buffering=0) as f:
+        while n := f.readinto(mv):
+            h.update(mv[:n])
+    return h.hexdigest()
+
+def package_library_submodule(path, download_url_prefix: str) -> dict:
+    logging.info(f"Analysing {path}")
+
+    metadata = get_metadata(path)
+
+    # Just update it in place, assume it's a quick rebuild. Check the tags for the 
+    # major version... maybe, thinking about the code later :O
+    metadata["versions"][0]["version"] = iterate_minor_version(metadata["versions"][0]["version"])
+    
+    # save the package relevant metadata without the download information.
+    save_metadata(path, metadata)
+
+    zip_directory(path)
+    metadata["versions"][0]["install_size"] = sum(file.stat().st_size for file in Path(path).rglob('*'))
+    metadata["versions"][0]["download_size"] = os.path.getsize(f"{path}.zip")
+    metadata["versions"][0]['sha256'] = sha256sum(f"{path}.zip")
+    metadata["versions"][0]["download_url"] = f"{metadata["versions"][0]["version"]}/{download_url_prefix}/{path}.zip"
+    
+    return metadata
+    
+def update_packages(packages_json_path: str):
+    packages = {
+        "packages" : [
+            package_library_submodule("PartyWagon112-KiCad-Library", "https://github.com/partywagon112/PartyWagon112-KiCad-Library/releases/download")
+        ]
+    }
+
+    with open(packages_json_path, 'w') as file:
+        json.dump(packages, file, indent=4)
+
+    os.stat(packages_json_path)
+
+def update_repository(repository_json_path, packages_json_path):
+    update_packages(packages_json_path)
+
+    repository = {}
+    
+    with open(repository_json_path, 'r') as file:
+        repository = json.load(file)
+    
+    timestamp = int(os.stat(packages_json_path).st_mtime)
+    repository["packages"]["sha256"] = sha256sum(packages_json_path)
+    repository["packages"]["update_timestamp"] = str(timestamp)
+    repository["packages"]["update_time_utc"] = str(datetime.datetime.fromtimestamp(timestamp))
+
+    with open(repository_json_path, 'w') as file:
+        json.dump(repository, file, indent=4)
+
+update_repository("partywagon112_repository.json", "partywagon112_packages.json")
