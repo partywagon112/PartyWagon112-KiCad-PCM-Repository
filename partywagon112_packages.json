@@ -23,10 +23,10 @@
             ],
             "versions": [
                 {
-                    "download_sha256": "b38d56323acb91ad660567340ca938c5b4a83a27eea52308ef14aa7857b0071b",
-                    "download_size": 7808392,
-                    "download_url": "https://github.com/kiswitch/keyswitch-kicad-library/releases/download/v2.4/keyswitch-kicad-library.zip",
-                    "install_size": 37552156,
+                    "download_sha256": "",
+                    "download_size": 63188,
+                    "download_url": "https://github.com/partywagon112/PartyWagon112-KiCad-Library/releases/download/1.1/PartyWagon112-KiCad-Library-1.1.zip",
+                    "install_size": 381946,
                     "kicad_version": "8.1",
                     "status": "stable",
                     "version": "1"
