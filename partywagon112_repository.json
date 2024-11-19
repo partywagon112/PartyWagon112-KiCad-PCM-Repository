@@ -8,9 +8,6 @@
     },
     "name": "KiCad official repository",
     "packages": {
-        "sha256": "40e454b1d5346aebb2b299fbff05f1e4bd9036371ce9fd7cbf17648619c7d378",
-        "update_time_utc": "2024-11-17 11:01:42",
-        "update_timestamp": 1731841302,
-        "url": "https://gitlab.com/kicad/addons/repository/-/raw/main/packages.json"
+        "url": "https://raw.githubusercontent.com/partywagon112/PartyWagon112-KiCad-PCM-Repository/refs/heads/main/partywagon112_packages.json"
     }
 }
