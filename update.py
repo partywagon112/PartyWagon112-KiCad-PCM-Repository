@@ -1,3 +1,6 @@
+"""
+Inspired by https://github.com/4ms/4ms-kicad-lib/blob/master/PCM/make_archive.sh
+"""
 import re
 import os
 import json

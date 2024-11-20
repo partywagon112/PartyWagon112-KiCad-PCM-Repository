@@ -19,16 +19,17 @@
             },
             "tags": [
                 "footprint",
-                "library"
+                "library",
+                "symbols"
             ],
             "versions": [
                 {
-                    "version": "1.4",
+                    "version": "1.54",
                     "status": "development",
-                    "kicad_version": "8.0",
-                    "install_size": 52104851,
-                    "download_size": 9953595,
-                    "sha256": "d8c46998981f36e30a5579c30395c3a3d5bb5af59fd2375cb6786967d0443503",
+                    "kicad_version": "8.1",
+                    "install_size": 52819311,
+                    "download_size": 9994422,
+                    "sha256": "68efcca7a7fa0681fc5d205ccb79549581710fd79b68dfffd297303aebb78020",
                     "download_url": "https://github.com/partywagon112/PartyWagon112-KiCad-Library/archive/refs/heads/main.zip"
                 }
             ]
