@@ -10,7 +10,6 @@
     "packages": {
         "update_time_utc": "2024-11-21 08:49:53",
         "update_timestamp": 1732139393,
-        "url": "https://raw.githubusercontent.com/partywagon112/PartyWagon112-KiCad-PCM-Repository/refs/heads/main/partywagon112_packages.json",
-        "sha256": "90b8e7f9599c40265691b66b00350a2a006f9ae696b7857b842fcef7a5544eb4"
+        "url": "https://raw.githubusercontent.com/partywagon112/PartyWagon112-KiCad-PCM-Repository/refs/heads/main/partywagon112_packages.json"
     }
 }

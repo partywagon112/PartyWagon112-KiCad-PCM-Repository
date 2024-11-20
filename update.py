@@ -96,7 +96,7 @@ def update_repository(repository_json_path, packages_json_path):
         repository = json.load(file)
     
     timestamp = int(os.stat(packages_json_path).st_mtime)
-    repository["packages"]["sha256"] = sha256sum(packages_json_path)
+    # repository["packages"]["sha256"] = sha256sum(packages_json_path)
     repository["packages"]["update_timestamp"] = int(timestamp)
     repository["packages"]["update_time_utc"] = str(datetime.datetime.fromtimestamp(timestamp))
 
