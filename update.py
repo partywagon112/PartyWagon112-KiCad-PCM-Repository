@@ -9,7 +9,7 @@ import datetime
 
 from pathlib import Path
 
-from git import Repo
+# from git import Repo
 
 import logging
 
@@ -52,7 +52,7 @@ def sha256sum(filename) -> str:
             h.update(mv[:n])
     return h.hexdigest()
 
-def package_library_submodule(path, download_url_prefix: str) -> dict:
+def package_library_submodule(path, download_url: str) -> dict:
     logging.info(f"Analysing {path}")
 
     metadata = get_metadata(path)
@@ -68,14 +68,14 @@ def package_library_submodule(path, download_url_prefix: str) -> dict:
     metadata["versions"][0]["install_size"] = sum(file.stat().st_size for file in Path(path).rglob('*'))
     metadata["versions"][0]["download_size"] = os.path.getsize(f"{path}.zip")
     metadata["versions"][0]['sha256'] = sha256sum(f"{path}.zip")
-    metadata["versions"][0]["download_url"] = f"{metadata["versions"][0]["version"]}/{download_url_prefix}/{path}.zip"
+    metadata["versions"][0]["download_url"] = f"{download_url}"
     
     return metadata
     
 def update_packages(packages_json_path: str):
     packages = {
         "packages" : [
-            package_library_submodule("PartyWagon112-KiCad-Library", "https://github.com/partywagon112/PartyWagon112-KiCad-Library/releases/download")
+            package_library_submodule("PartyWagon112-KiCad-Library", "https://github.com/partywagon112/PartyWagon112-KiCad-Library/archive/refs/heads/main.zip")
         ]
     }
 
