@@ -8,9 +8,9 @@
     },
     "name": "PartyWagon112 Repository",
     "packages": {
-        "update_time_utc": "2024-11-21 07:48:28",
-        "update_timestamp": 1732135708,
+        "update_time_utc": "2024-11-21 07:54:20",
+        "update_timestamp": 1732136060,
         "url": "https://raw.githubusercontent.com/partywagon112/PartyWagon112-KiCad-PCM-Repository/refs/heads/main/partywagon112_packages.json",
-        "sha256": "6bc771f246605e888eae7a9220b197ca4452fd71a05f3ad6270d69229a808c44"
+        "sha256": "08ba3e3e60834eaa619712dca30292273d04fdecd7e2c410318aec358d10283a"
     }
 }
