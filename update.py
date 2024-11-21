@@ -42,9 +42,10 @@ def save_metadata(path, metadata):
     with open(metadata_path, 'w') as file:
         json.dump(metadata, file, indent=4)
 
-def zip_directory(path) -> dict:
+def package_path(path) -> dict:
     # with ZipFile(os.path.join(".", f"{os.path.basename(path)}.zip"), 'w') as zip_object:
-    shutil.make_archive(os.path.basename(path), 'zip', path)
+    shutil.make_archive(os.path.join("packages", os.path.basename(path)), 'zip', path)
+    return os.path.join("packages", f"{path}.zip")
 
 def sha256sum(filename) -> str:
     h  = hashlib.sha256()
@@ -67,14 +68,14 @@ def package_library_submodule(path, download_url: str) -> dict:
     # save the package relevant metadata without the download information.
     save_metadata(path, metadata)
 
-    zip_directory(path)
+    packaged_path = package_path(path)
     metadata["versions"][0]["install_size"] = sum(file.stat().st_size for file in Path(path).rglob('*'))
-    metadata["versions"][0]["download_size"] = os.path.getsize(f"{path}.zip")
-    metadata["versions"][0]['sha256'] = sha256sum(f"{path}.zip")
+    metadata["versions"][0]["download_size"] = os.path.getsize(packaged_path)
+    metadata["versions"][0]['sha256'] = sha256sum(packaged_path)
     metadata["versions"][0]["download_url"] = f"{download_url}"
     
     return metadata
-    
+
 def update_packages(packages_json_path: str):
     packages = {
         "packages" : [
