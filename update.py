@@ -79,7 +79,7 @@ def package_library_submodule(path, download_url: str) -> dict:
 def update_packages(packages_json_path: str):
     packages = {
         "packages" : [
-            package_library_submodule("PartyWagon112-KiCad-Library", "https://github.com/partywagon112/PartyWagon112-KiCad-Library/archive/refs/heads/main.zip")
+            package_library_submodule("PartyWagon112-KiCad-Library", "https://github.com/partywagon112/PartyWagon112-KiCad-PCM-Repository/raw/refs/heads/main/packages/PartyWagon112-KiCad-Library.zip")
         ]
     }
 
@@ -95,7 +95,7 @@ def update_repository(repository_json_path, packages_json_path):
     
     with open(repository_json_path, 'r') as file:
         repository = json.load(file)
-    
+
     timestamp = int(os.stat(packages_json_path).st_mtime)
     # repository["packages"]["sha256"] = sha256sum(packages_json_path)
     repository["packages"]["update_timestamp"] = int(timestamp)
