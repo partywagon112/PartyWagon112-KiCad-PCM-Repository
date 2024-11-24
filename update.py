@@ -7,7 +7,6 @@ import json
 
 import shutil
 import hashlib
-from zipfile import ZipFile
 import datetime
 
 from pathlib import Path
