@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PartyWagon112_Regulators")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Regulators.kicad_sym")(options "")(descr ""))
+  (lib (name "PartyWagon112_Microcontrollers")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Microcontrollers.kicad_sym")(options "")(descr ""))
+  (lib (name "PartyWagon112_MCU_Module")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_MCU_Module.kicad_sym")(options "")(descr ""))
+  (lib (name "PartyWagon112_Diodes")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Diodes.kicad_sym")(options "")(descr ""))
+  (lib (name "PartyWagon112_Bridge_Drivers")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Bridge_Drivers.kicad_sym")(options "")(descr ""))
+)
