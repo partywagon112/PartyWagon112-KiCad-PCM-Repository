@@ -6,4 +6,5 @@
   (lib (name "PartyWagon112_Diodes")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Diodes.kicad_sym")(options "")(descr ""))
   (lib (name "PartyWagon112_Bridge_Drivers")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Bridge_Drivers.kicad_sym")(options "")(descr ""))
   (lib (name "PartyWagon112_Motor_Driver")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Motor_Driver.kicad_sym")(options "")(descr ""))
+  (lib (name "PartyWagon112_Interfaces")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Interfaces.kicad_sym")(options "")(descr ""))
 )
