@@ -22,7 +22,7 @@
     ],
     "versions": [
         {
-            "version": "1.63",
+            "version": "1.64",
             "status": "development",
             "kicad_version": "8.0"
         }

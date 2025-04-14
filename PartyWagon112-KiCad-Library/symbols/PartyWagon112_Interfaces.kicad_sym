@@ -70,14 +70,14 @@
 			(pin power_in line
 				(at -38.1 76.2 0)
 				(length 5.08)
-				(name "DVDDL"
+				(name "AVDDH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "11"
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -88,14 +88,14 @@
 			(pin power_in line
 				(at -38.1 73.66 0)
 				(length 5.08)
-				(name "DVDDL"
+				(name "AVDDH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "23"
+				(number "22"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -106,14 +106,14 @@
 			(pin power_in line
 				(at -38.1 71.12 0)
 				(length 5.08)
-				(name "DVDDL"
+				(name "AVDDH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "45"
+				(number "33"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -124,14 +124,14 @@
 			(pin power_in line
 				(at -38.1 68.58 0)
 				(length 5.08)
-				(name "DVDDL"
+				(name "AVDDH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "56"
+				(number "44"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -142,14 +142,14 @@
 			(pin power_in line
 				(at -38.1 66.04 0)
 				(length 5.08)
-				(name "DVDDL"
+				(name "AVDDH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "74"
+				(number "111"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -160,14 +160,14 @@
 			(pin power_in line
 				(at -38.1 63.5 0)
 				(length 5.08)
-				(name "DVDDL"
+				(name "AVDDH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "87"
+				(number "122"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -178,50 +178,14 @@
 			(pin power_in line
 				(at -38.1 60.96 0)
 				(length 5.08)
-				(name "DVDDL"
+				(name "AVDDH"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "104"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 58.42 0)
-				(length 5.08)
-				(name "DVDDL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "110"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -38.1 53.34 0)
-				(length 5.08)
-				(name "VDDIO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "61"
+				(number "128"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -239,7 +203,7 @@
 						)
 					)
 				)
-				(number "77"
+				(number "61"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -249,6 +213,24 @@
 			)
 			(pin power_in line
 				(at -38.1 48.26 0)
+				(length 5.08)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -38.1 45.72 0)
 				(length 5.08)
 				(name "VDDIO"
 					(effects
@@ -284,7 +266,7 @@
 				)
 			)
 			(pin output clock
-				(at -38.1 30.48 0)
+				(at -38.1 33.02 0)
 				(length 5.08)
 				(name "XO"
 					(effects
@@ -1150,14 +1132,14 @@
 			(pin power_in line
 				(at 38.1 76.2 180)
 				(length 5.08)
-				(name "AVDDH"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "10"
+				(number "11"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1168,14 +1150,14 @@
 			(pin power_in line
 				(at 38.1 73.66 180)
 				(length 5.08)
-				(name "AVDDH"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "22"
+				(number "23"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1186,14 +1168,14 @@
 			(pin power_in line
 				(at 38.1 71.12 180)
 				(length 5.08)
-				(name "AVDDH"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "33"
+				(number "45"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1204,14 +1186,14 @@
 			(pin power_in line
 				(at 38.1 68.58 180)
 				(length 5.08)
-				(name "AVDDH"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "44"
+				(number "56"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1222,14 +1204,14 @@
 			(pin power_in line
 				(at 38.1 66.04 180)
 				(length 5.08)
-				(name "AVDDH"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "111"
+				(number "74"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1240,14 +1222,14 @@
 			(pin power_in line
 				(at 38.1 63.5 180)
 				(length 5.08)
-				(name "AVDDH"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "122"
+				(number "87"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1258,14 +1240,14 @@
 			(pin power_in line
 				(at 38.1 60.96 180)
 				(length 5.08)
-				(name "AVDDH"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "128"
+				(number "104"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1274,16 +1256,16 @@
 				)
 			)
 			(pin power_in line
-				(at 38.1 55.88 180)
+				(at 38.1 58.42 180)
 				(length 5.08)
-				(name "AVDDL"
+				(name "DVDDL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3"
+				(number "110"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1301,7 +1283,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1319,7 +1301,7 @@
 						)
 					)
 				)
-				(number "19"
+				(number "14"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1337,7 +1319,7 @@
 						)
 					)
 				)
-				(number "30"
+				(number "19"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1355,7 +1337,7 @@
 						)
 					)
 				)
-				(number "36"
+				(number "30"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1373,7 +1355,7 @@
 						)
 					)
 				)
-				(number "41"
+				(number "36"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1391,7 +1373,7 @@
 						)
 					)
 				)
-				(number "114"
+				(number "41"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1409,7 +1391,7 @@
 						)
 					)
 				)
-				(number "119"
+				(number "114"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1419,6 +1401,24 @@
 			)
 			(pin power_in line
 				(at 38.1 35.56 180)
+				(length 5.08)
+				(name "AVDDL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 38.1 33.02 180)
 				(length 5.08)
 				(name "AVDDL"
 					(effects
@@ -2338,7 +2338,7 @@
 		)
 		(symbol "KSZ9897RTXC_1_0"
 			(pin power_out line
-				(at 38.1 30.48 180)
+				(at -38.1 55.88 0)
 				(length 5.08)
 				(name "ISET"
 					(effects
@@ -2359,7 +2359,7 @@
 		(symbol "KSZ9897RTXC_1_1"
 			(polyline
 				(pts
-					(xy -33.02 27.94) (xy 33.02 27.94)
+					(xy -33.02 29.21) (xy 33.02 29.21)
 				)
 				(stroke
 					(width 0)
