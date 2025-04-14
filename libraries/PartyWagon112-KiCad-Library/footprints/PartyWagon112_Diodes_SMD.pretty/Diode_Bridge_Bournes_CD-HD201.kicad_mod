@@ -1,0 +1,207 @@
+(footprint "Diode_Bridge_Bournes_CD-HD201"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0bc432f2-2fb7-4afb-baea-e13e5fb59031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge_Bournes_CD-HD201"
+		(at 0 -6.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1e4e279-629d-4393-9731-f5c6c30dc7a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5fce964-5a05-47e1-9beb-693a45d48d12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41caac0d-6220-4224-aa1d-010f9fc4d062")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57f0d723-d7de-496e-91f4-c7bb387e23b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.425 -3)
+		(end 2.425 2.875)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2dc40aa2-cc08-4c89-b431-50b5d2b2d95d")
+	)
+	(fp_poly
+		(pts
+			(xy 2.8 -2.8) (xy 2.6 -2.6) (xy 2.8 -2.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9785931e-3ddd-46fe-854a-1e6161d093b5")
+	)
+	(fp_rect
+		(start -2.425 -4.125)
+		(end 2.425 4.125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7da22a97-5347-4276-8664-25005d8db81b")
+	)
+	(fp_text user "~"
+		(at -1.2 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0fd35b27-5b2c-4577-984b-924562016132")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "~"
+		(at 1.25 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "281210a7-505e-4a43-93d7-6b7a5fa6fcc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at -1.25 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5da70668-a6a8-4074-914c-e3a2f1d5b95d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 1.25 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7ecdf106-cff3-4a1f-b1a1-804dc07d2421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -4.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80a4b7f4-5b06-4d2c-8aff-1844090a8abb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.25 -2.55)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0ccdd9bc-f81a-4f73-bed5-7d5dfb8e132a")
+	)
+	(pad "2" smd roundrect
+		(at 1.25 2.55)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c685f9d2-2430-4e93-98c4-de1d0bc5ded7")
+	)
+	(pad "3" smd roundrect
+		(at -1.25 2.55)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b5d3e84f-b58e-4b09-96f9-835c4edeee6c")
+	)
+	(pad "4" smd roundrect
+		(at -1.25 -2.55)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "0b5e7ee8-ad03-424b-b2bc-52459a52ebb8")
+	)
+	(model "C:/Users/patri/OneDrive/Documents/GitHub/PartyWagon112-PCM-Repository/partywagon112-custom-library/3dmodels/CD-HD201-Body.step"
+		(offset
+			(xyz 0 0 0.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

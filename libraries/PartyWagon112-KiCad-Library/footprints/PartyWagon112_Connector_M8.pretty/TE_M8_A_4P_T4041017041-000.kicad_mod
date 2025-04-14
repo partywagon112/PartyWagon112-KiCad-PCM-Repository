@@ -1,0 +1,167 @@
+(footprint "TE_M8_A_4P_T4041017041-000"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.175 -7.635 0)
+		(layer "F.SilkS")
+		(uuid "f9180d00-c253-4ec3-a393-cee5b11ea012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_T4041017041-000"
+		(at 8.43 7.635 0)
+		(layer "F.Fab")
+		(uuid "057b43cf-e8fb-4446-98cb-eeaae032bacf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4870e8b-2e39-4bd4-bb09-5e3e6c8cbce1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c0a7d59-f8aa-462d-a184-7e665a313e93")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa4af4d6-d487-4234-9076-3c69f3f7f563")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 6.3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "66cb2044-44c6-4b18-8946-9a7c54f99ca8")
+	)
+	(fp_circle
+		(center 7 0.5)
+		(end 7.1 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c9e40c44-af12-4ae3-b9f4-d751d793a3a3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.55 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "22001e34-188d-4a6f-9089-0f1dcec5bb0c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "875818d4-765c-417c-b77a-e3c031503172")
+	)
+	(fp_circle
+		(center 7 0.5)
+		(end 7.1 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a409ee12-86ec-4867-b6f8-95566f85c51f")
+	)
+	(pad "1" thru_hole rect
+		(at 1.7 0.5)
+		(size 1.358 1.358)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "03c5d5ae-fc35-45bf-becd-6a5017c80852")
+	)
+	(pad "2" thru_hole circle
+		(at 1.075 -1.45)
+		(size 1.358 1.358)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3ea0508b-99f7-4f2d-8c16-834574df942e")
+	)
+	(pad "3" thru_hole circle
+		(at -1.7 0.5)
+		(size 1.358 1.358)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "971dedbe-0d7a-4016-b859-f5ba2994660f")
+	)
+	(pad "4" thru_hole circle
+		(at -1.075 -1.45)
+		(size 1.358 1.358)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "7cc8d163-5895-4afd-bcb5-562e3f07a292")
+	)
+	(model "C:/Users/patri/OneDrive/Documents/GitHub/PartyWagon112-PCM-Repository/partywagon112-custom-library/3dmodels/T4041017041-000.step"
+		(offset
+			(xyz 0 0 16.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

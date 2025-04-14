@@ -1,5 +1,0 @@
-[submodule "PartyWagon112-KiCad-Library"]
-	path = PartyWagon112-KiCad-Library
-	url = https://github.com/partywagon112/PartyWagon112-KiCad-Library
-	update = merge
-	main = main

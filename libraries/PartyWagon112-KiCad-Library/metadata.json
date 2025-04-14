@@ -1,0 +1,30 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "PartyWagon112 Kicad Library",
+    "description": "A library for my projects",
+    "description_full": "A library for my projects",
+    "identifier": "com.github.partywagon112.partywagon112-kicad-library",
+    "type": "library",
+    "author": {
+        "name": "Patrick Curtain (partywagon112)",
+        "contact": {
+            "web": "https://github.com/partywagon112"
+        }
+    },
+    "license": "Apache",
+    "resources": {
+        "Github": "https://github.com/partywagon112/PartyWagon112-KiCad-Library"
+    },
+    "tags": [
+        "footprint",
+        "library",
+        "symbols"
+    ],
+    "versions": [
+        {
+            "version": "1.59",
+            "status": "development",
+            "kicad_version": "8.0"
+        }
+    ]
+}
