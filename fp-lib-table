@@ -11,4 +11,6 @@
   (lib (name "PartyWagon112_Connector_M12")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Connector_M12.pretty")(options "")(descr ""))
   (lib (name "PartyWagon112_Connector_M8")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Connector_M8.pretty")(options "")(descr ""))
   (lib (name "PartyWagon112_QFP")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_QFP.pretty")(options "")(descr ""))
+  (lib (name "PartyWagon112_Connectors_PCIE")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Connectors_PCIE.pretty")(options "")(descr ""))
+  (lib (name "PartyWagon112_Standoffs")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Standoffs.pretty")(options "")(descr ""))
 )
