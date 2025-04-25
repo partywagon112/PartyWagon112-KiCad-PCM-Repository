@@ -1,4 +1,4 @@
-(footprint "Untitled"
+(footprint "M.2_Layout"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Untitled"
+	(property "Value" "M.2_Layout"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
