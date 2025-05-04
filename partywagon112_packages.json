@@ -24,12 +24,12 @@
             ],
             "versions": [
                 {
-                    "version": "1.72",
+                    "version": "1.73",
                     "status": "development",
                     "kicad_version": "8.0",
-                    "install_size": 57145748,
-                    "download_size": 11265288,
-                    "sha256": "92c3141b3ef7a4205b7c65b7c2ce5db4010effa2304966f291a6c9de61948ada",
+                    "install_size": 57189530,
+                    "download_size": 11268522,
+                    "sha256": "f567a8b23adc0a83bdf6344d16ef8aa722c915caaba772b804f3f6197a37023f",
                     "download_url": "https://github.com/partywagon112/PartyWagon112-KiCad-PCM-Repository/raw/refs/heads/main/packages/PartyWagon112-KiCad-Library.zip"
                 }
             ]
