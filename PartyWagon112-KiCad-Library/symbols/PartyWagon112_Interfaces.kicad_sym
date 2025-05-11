@@ -2818,14 +2818,14 @@
 			(pin input line
 				(at 22.86 1.27 180)
 				(length 2.54)
-				(name "USBDP_DN1/PRT_DIS_P1"
+				(name "USBDM_DN1/PRT_DIS_N1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2836,7 +2836,7 @@
 			(pin input line
 				(at 22.86 -1.27 180)
 				(length 2.54)
-				(name "USBDN_DN1/PRT_DIS_N1"
+				(name "USBDP_DN1/PRT_DIS_P1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2890,7 +2890,7 @@
 			(pin input line
 				(at 22.86 -11.43 180)
 				(length 2.54)
-				(name "USBDP_DN2/PRT_DIS_P2"
+				(name "USBDM_DN2/PRT_DIS_N2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2908,14 +2908,14 @@
 			(pin input line
 				(at 22.86 -13.97 180)
 				(length 2.54)
-				(name "USBDN_DN2/PRT_DIS_N2"
+				(name "USBDP_DN2/PRT_DIS_P2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
