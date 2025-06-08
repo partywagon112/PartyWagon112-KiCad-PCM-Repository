@@ -1463,7 +1463,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 19.05 0)
+			(at 0 21.082 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1471,7 +1471,7 @@
 			)
 		)
 		(property "Value" "TPS65265RHBR"
-			(at 0 16.51 0)
+			(at 0 18.542 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1489,7 +1489,7 @@
 			)
 		)
 		(property "Datasheet" "TPS65265RHBR"
-			(at 0 18.542 0)
+			(at 0 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,8 +1535,8 @@
 		)
 		(symbol "TPS65265RHBR_1_1"
 			(rectangle
-				(start -10.16 15.24)
-				(end 10.16 -15.24)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1546,7 +1546,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 12.7 0)
+				(at -15.24 10.16 0)
 				(length 5.08)
 				(name "PVIN1"
 					(effects
@@ -1564,7 +1564,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 10.16 0)
+				(at -15.24 7.62 0)
 				(length 5.08)
 				(name "PVIN1"
 					(effects
@@ -1582,7 +1582,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 5.08 0)
+				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "EN1"
 					(effects
@@ -1600,7 +1600,7 @@
 				)
 			)
 			(pin output line
-				(at -15.24 2.54 0)
+				(at -15.24 0 0)
 				(length 5.08)
 				(name "COMP1"
 					(effects
@@ -1618,7 +1618,25 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -12.7 0)
+				(at -15.24 -7.62 0)
+				(length 5.08)
+				(name "PGND1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 -10.16 0)
 				(length 5.08)
 				(name "PGND1"
 					(effects
@@ -1636,7 +1654,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 12.7 180)
+				(at 15.24 10.16 180)
 				(length 5.08)
 				(name "BST1"
 					(effects
@@ -1654,7 +1672,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 7.62 180)
+				(at 15.24 2.54 180)
 				(length 5.08)
 				(name "LX1"
 					(effects
@@ -1672,7 +1690,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 5.08 180)
+				(at 15.24 0 180)
 				(length 5.08)
 				(name "LX1"
 					(effects
@@ -1690,7 +1708,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -5.08 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "FB1"
 					(effects
@@ -1700,24 +1718,6 @@
 					)
 				)
 				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 -12.7 180)
-				(length 5.08)
-				(name "PGND1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
 					(effects
 						(font
 							(size 1.27 1.27)
