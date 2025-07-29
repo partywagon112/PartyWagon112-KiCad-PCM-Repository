@@ -9,4 +9,5 @@
   (lib (name "PartyWagon112_Interfaces")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Interfaces.kicad_sym")(options "")(descr ""))
   (lib (name "PartyWagon112_Connectors")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Connectors.kicad_sym")(options "")(descr ""))
   (lib (name "PartyWagon112_Transformers")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_Transformers.kicad_sym")(options "")(descr ""))
+  (lib (name "PartyWagon112_High_Side_Drivers")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/symbols/PartyWagon112_High_Side_Drivers.kicad_sym")(options "")(descr ""))
 )
