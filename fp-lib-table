@@ -16,4 +16,5 @@
   (lib (name "PartyWagon112_Mechanical")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Mechanical.pretty")(options "")(descr ""))
   (lib (name "PartyWagon112_Connectors_Generic")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Connectors_Generic.pretty")(options "")(descr ""))
   (lib (name "PartyWagon112_Inductor_SMD")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Inductor_SMD.pretty")(options "")(descr ""))
+  (lib (name "PartyWagon112_Connector_FFC-FPC")(type "KiCad")(uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Connector_FFC-FPC.pretty")(options "")(descr ""))
 )
