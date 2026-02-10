@@ -1,7 +1,7 @@
 (footprint "TE_M8_A_4P_T4041017041-000"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.175 -7.635 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a4870e8b-2e39-4bd4-bb09-5e3e6c8cbce1")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -69,7 +59,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "66cb2044-44c6-4b18-8946-9a7c54f99ca8")
 	)
@@ -80,7 +70,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "c9e40c44-af12-4ae3-b9f4-d751d793a3a3")
 	)
@@ -91,7 +81,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "22001e34-188d-4a6f-9089-0f1dcec5bb0c")
 	)
@@ -102,7 +92,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "875818d4-765c-417c-b77a-e3c031503172")
 	)
@@ -113,7 +103,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a409ee12-86ec-4867-b6f8-95566f85c51f")
 	)
@@ -153,15 +143,16 @@
 		(solder_mask_margin 0.102)
 		(uuid "7cc8d163-5895-4afd-bcb5-562e3f07a292")
 	)
-	(model "C:/Users/patri/OneDrive/Documents/GitHub/PartyWagon112-PCM-Repository/partywagon112-custom-library/3dmodels/T4041017041-000.step"
+	(embedded_fonts no)
+	(model "kicad-embed://c-t4041017041-000-a-3d.stp"
 		(offset
-			(xyz 0 0 16.5)
+			(xyz 0 0 15)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
