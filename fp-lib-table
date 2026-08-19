@@ -20,4 +20,5 @@
 	(lib (name "PartyWagon112_Connector_USB") (type "KiCad") (uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Connector_USB.pretty") (options "") (descr ""))
 	(lib (name "PartyWagon112_Connector_Terminal") (type "KiCad") (uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Connector_Terminal.pretty") (options "") (descr ""))
 	(lib (name "PartyWagon112_BGA") (type "KiCad") (uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_BGA.pretty") (options "") (descr ""))
+	(lib (name "PartyWagon112_Switches") (type "KiCad") (uri "${KIPRJMOD}/PartyWagon112-KiCad-Library/footprints/PartyWagon112_Switches") (options "") (descr ""))
 )
