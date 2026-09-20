@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "CMM-4030DT-261280-TR"
+	(symbol "SameSky_CMM-4030DT-261280"
 		(pin_names
 			(offset 1.016)
 		)
@@ -22,7 +22,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CMM-4030DT-261280-TR"
+		(property "Value" "SameSky_CMM-4030DT-261280"
 			(at -12.7 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -115,7 +115,7 @@
 				(justify bottom)
 			)
 		)
-		(symbol "CMM-4030DT-261280-TR_0_0"
+		(symbol "SameSky_CMM-4030DT-261280_0_0"
 			(rectangle
 				(start -12.7 -10.16)
 				(end 12.7 10.16)
@@ -218,7 +218,7 @@
 				)
 			)
 		)
-		(symbol "CMM-4030DT-261280-TR_1_0"
+		(symbol "SameSky_CMM-4030DT-261280_1_0"
 			(pin power_in line
 				(at 17.78 -7.62 180)
 				(length 5.08)
